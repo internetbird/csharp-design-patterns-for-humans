@@ -1299,7 +1299,7 @@ abstract class Account
   }
   private bool CanPay(decimal amount)
   {
-    return mBalance >= amount ? true : false;
+    return mBalance >= amount;
   }
 }
 
